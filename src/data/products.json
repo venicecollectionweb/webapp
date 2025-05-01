@@ -1,0 +1,19 @@
+[
+    {
+      "category": "Uomini",
+      "subcategory": "Ricamato",
+      "name": "Maglia Ricamata",
+      "colors": "Rosso",
+      "sizes": "S, M, L, XL",
+      "image": "/images/uomini/ricamato/1.png"
+    },
+    {
+      "category": "Uomini",
+      "subcategory": "Personalizzate",
+      "name": "Maglia Personalizzate",
+      "colors": "Nero, Verde",
+      "sizes": "S, M, L, XL",
+      "image": "/images/uomini/personalizzate/2.png"
+    }
+  ]
+  
