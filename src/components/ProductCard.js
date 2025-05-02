@@ -1,19 +1,17 @@
 import React from "react";
-import "./ProductCard.css"; // Import the CSS file
+import "./ProductCard.css";  // Import the styling for the product card
 
-const ProductCard = ({ name, image, colors, sizes }) => {
-  return (
-    <div className="product-card">
-      <img src={image} alt={name} className="product-image" />
-      <h3 className="product-name">{name}</h3>
-      <p className="product-label">
-        <strong>Colors:</strong> {colors}
-      </p>
-      <p className="product-label">
-        <strong>Sizes:</strong> {sizes}
-      </p>
-    </div>
-  );
-};
+function ProductCard({ name, image, colors, sizes, stampe }) {
+    return (
+      <div className="product-card">
+        <img src={image} alt={name} />
+        <h3>{name}</h3>
+        <p>Colors: {colors}</p>
+        <p>Sizes: {sizes}</p>
+        {stampe && <p>Stampe: {stampe}</p>}
+      </div>
+    );
+  }
+  
 
 export default ProductCard;

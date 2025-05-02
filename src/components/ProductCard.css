@@ -1,25 +1,16 @@
-.product-card {
-    width: 100%;
-    max-width: 300px;
-    background-color: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-    padding: 16px;
-    text-align: center;
-    transition: transform 0.3s ease;
-  }
-  
-  .product-card:hover {
-    transform: translateY(-5px);
-  }
-  
-  .product-image {
-    width: 100%;
-    height: auto;
+/* ProductCard.css */
+.product-card img {
     border-radius: 8px;
-    object-fit: cover;
   }
-  .product-image {
-    border: 2px solid red;
+  
+  .product-card h3 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .product-card p {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
   }
   
