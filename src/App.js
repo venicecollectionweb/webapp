@@ -55,7 +55,7 @@ function App() {
     });
   }, []);
 
-  const categories = ["Uomini", "Donne", "Bambini", "Bambina", "Neonati", "Felpe"];
+  const categories = ["Uomini", "Donne", "Bambino", "Bambina", "Neonati", "Felpe"];
 
   const handleCategorySelect = (category) => {
     setSelectedCategory(category);
