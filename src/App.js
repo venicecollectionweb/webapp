@@ -23,6 +23,8 @@ function App() {
     Royal: "#4169E1",      // Royal Blue
     Grigio: "#808080",     // Gray
     Nero: "#000000",       // Black
+    Blu: "#023E8A", //BLUE
+    Rosa: "FC8EAC" //Pink
   };
 
   const handlePrev = () => {
