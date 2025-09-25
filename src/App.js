@@ -75,6 +75,7 @@ function App() {
   };
 
   const closeModal = () => {
+    setCurrentImageIndex(0);
     setIsModalOpen(false);
     setSelectedProduct(null);
     document.body.style.overflow = "auto";
