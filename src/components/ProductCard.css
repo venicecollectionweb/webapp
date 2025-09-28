@@ -1,16 +1,34 @@
-/* ProductCard.css */
 .product-card img {
-    border-radius: 8px;
-  }
-  
+  border-radius: 8px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Product title styling */
+.product-card h3 {
+  font-size: 1rem;
+  margin-top: 10px;
+  text-align: center;
+
+  /* Prevent long IDs from overflowing */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+
+  /* Optional: make sure it stays within card */
+  max-width: 100%;
+}
+
+/* Optional: slightly smaller text on mobile */
+@media (max-width: 600px) {
   .product-card h3 {
-    font-size: 1.2rem;
-    margin-top: 10px;
+    font-size: 0.9rem;
   }
-  
-  .product-card p {
-    font-size: 1rem;
-    color: #555;
-    margin: 5px 0;
-  }
-  
+}
+
+.product-card p {
+  font-size: 1rem;
+  color: #555;
+  margin: 5px 0;
+  text-align: center;
+}
